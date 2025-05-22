@@ -1,0 +1,85 @@
+index.html
+style.css
+images/ (for your work samples)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graphic Designer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Graphic Designer | Illustrator | Visual Creator</p>
+  </header>
+
+  <section class="portfolio">
+    <h2>My Work</h2>
+    <div class="gallery">
+      <img src="images/work1.jpg" alt="Project 1" />
+      <img src="images/work2.jpg" alt="Project 2" />
+      <img src="images/work3.jpg" alt="Project 3" />
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate graphic designer specializing in branding, digital illustration, and visual storytelling. Let’s work together to bring your vision to life.</p>
+  </section>
+
+  <footer>
+    <p>Contact me: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>© 2025 Your Name</p>
+  </footer>
+</body>
+</html>
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio {
+  padding: 2rem;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.about {
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
